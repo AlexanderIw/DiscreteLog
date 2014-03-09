@@ -1,0 +1,24 @@
+set of test data:
+B= g^x mod p
+
+completed x= 14864
+b = new BigInteger("21");     		//B = 	g^x mod p
+g = new BigInteger("7");						//g^x 	non-primitive root mod p
+p = new BigInteger("65537"); 			//p 	prime
+
+Completed x=11608						// ;-)
+b = new BigInteger("5872");     		//B= g^x mod p
+g = new BigInteger("5");				// non-primitive root mod p
+p = new BigInteger("14087"); 			//the modulus prime p
+
+
+Not Completed x=?						// ;-(
+b = new BigInteger("1351124895");     	//B= g^x mod p	
+g = new BigInteger("3");				// non-primitive root mod p
+p = new BigInteger("3000000019"); 		//the modulus prime p
+
+
+not completed x=?
+b = new BigInteger("92327518017224");     		//B= g^x mod p
+g = new BigInteger("7");				// non-primitive root mod p
+p = new BigInteger("247457076132467"); 			//the modulus prime p
